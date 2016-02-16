@@ -1,0 +1,37 @@
+{
+  "name": "backbone-fisher",
+  "version": "0.1.0",
+  "description": "A simple backbone CRUD client for salmons and bears.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronFilson/backbone-fisher.git"
+  },
+  "keywords": [
+    "backbone",
+    "client",
+    "simple",
+    "test",
+    "401"
+  ],
+  "author": "Aaron Filson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AaronFilson/backbone-fisher/issues"
+  },
+  "homepage": "https://github.com/AaronFilson/backbone-fisher#readme",
+  "dependencies": {
+    "backbone": "^1.2.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7"
+  }
+}
