@@ -24,14 +24,21 @@
   },
   "homepage": "https://github.com/AaronFilson/backbone-fisher#readme",
   "dependencies": {
-    "backbone": "^1.2.3"
+    "backbone": "^1.2.3",
+    "express": "^4.13.4"
   },
   "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.2",
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
     "gulp": "^3.9.1",
     "gulp-eslint": "^2.0.0",
     "gulp-mocha": "^2.2.0",
-    "gulp-util": "^3.0.7"
+    "gulp-util": "^3.0.7",
+    "jquery": "^2.2.0",
+    "underscore": "^1.8.3",
+    "webpack": "^1.12.13",
+    "webpack-stream": "^3.1.0"
   }
 }

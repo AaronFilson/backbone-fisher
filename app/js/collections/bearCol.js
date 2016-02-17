@@ -1,6 +1,6 @@
 app.BearCol = Backbone.Collection.extend({
   model: app.Bear,
-  url: '/api/bears',
+  url: 'http://localhost:3000/api/bears',
   completed: function() {
     return this.filter(function( bear ) {
       return bear.get('completed');

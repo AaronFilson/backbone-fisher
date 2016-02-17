@@ -1,4 +1,10 @@
 'use strict';
+var app = {}; //namespace for bear Client app
+var $ = require('jquery');
+var _ = require('underscore');
+require('backbone');
+require(__dirname + '/models/bear');
+require(__dirname + '/collections/bearCol');
 
 // instance of the Collection
 app.oneBearCollection = new app.BearCol();
@@ -103,7 +109,10 @@ app.AppView = Backbone.View.extend({
       },
       setFilter: function(params) {
         console.log('app.router.params = ' + params);
-        window.filter = params.trim() || '';
+        if(params){
+          window.filter = params.trim() || '';
+        }
+
         app.oneBearCollection.trigger('reset');
       }
     });

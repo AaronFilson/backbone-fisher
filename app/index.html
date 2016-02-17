@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Backbone Fisher - a demo of Bears and Salmons on backbone</title>
+    <script type="text/template" id="bear-template">
+      <div class="view">
+        <input class="toggle" type="checkbox" <%= completed ? 'checked' : '' %>>
+        <label><%- title %></label>
+        <input class="edit" value="<%- title %>">
+        <button class="destroy">remove</button>
+      </div>
+    </script>
+  </head>
+  <body>
+    <h1>Super Bear and Salmon app!</h1>
+
+    <main id="app">
+      <section id="createBear">
+        <input id="new-bear" placeholder="What is the name of the new bear?" autofocus>
+
+      </section>
+      <section id="">
+        <ul id ="bear-list">
+
+        </ul>
+
+      </section>
+
+    </main>
+
+    <div>
+
+      <script src="bundle.js"></script>
+    </div>
+  </body>
+</html>
