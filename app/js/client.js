@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; // Credit to Adrian Mejia for todo example app, http://adrianmejia.com/blog/2012/09/13/backbonejs-for-absolute-beginners-getting-started-part-3/
 var app = {}; //namespace for bear Client app
 var $ = require('jquery');
 var _ = require('underscore');
